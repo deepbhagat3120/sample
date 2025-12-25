@@ -257,6 +257,25 @@ body {
     background-color: #fff;
     color: #0a3cce;
 }
+.categories-wrapper {
+    display: flex;
+    gap: 6vw;
+    margin-top: 3vw;
+}
+
+.categories-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vw;
+}
+
+.category-item {
+    color: #ffffff;
+    font-size: 1.2vw;
+    font-weight: 300;
+    white-space: nowrap;
+}
+
 #page9{
     display: flex;
     position: relative;
